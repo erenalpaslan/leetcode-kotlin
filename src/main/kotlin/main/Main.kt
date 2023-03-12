@@ -5,5 +5,15 @@ import interview.ClimbingStairs.climbStairs
 import interview.MergeTwoSortedList.printNode
 
 fun main(args: Array<String>) {
-    println(FirstBadVersion.firstBadVersion(5))
+
+    val linked = ReverseLinkedList.ListNode(1).apply {
+        next = ReverseLinkedList.ListNode(2).apply {
+            next = ReverseLinkedList.ListNode(3).apply {
+                next = ReverseLinkedList.ListNode(4).apply {
+                    next = ReverseLinkedList.ListNode(5)
+                }
+            }
+        }
+    }
+    println(ReverseLinkedList.reverseList(linked))
 }
