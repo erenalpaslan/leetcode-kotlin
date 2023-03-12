@@ -6,14 +6,14 @@ import interview.MergeTwoSortedList.printNode
 
 fun main(args: Array<String>) {
 
-    val linked = ReverseLinkedList.ListNode(1).apply {
-        next = ReverseLinkedList.ListNode(2).apply {
-            next = ReverseLinkedList.ListNode(3).apply {
-                next = ReverseLinkedList.ListNode(4).apply {
-                    next = ReverseLinkedList.ListNode(5)
+    val linked = MiddleOfTheLinkedList.ListNode(1).apply {
+        next = MiddleOfTheLinkedList.ListNode(2).apply {
+            next = MiddleOfTheLinkedList.ListNode(3).apply {
+                next = MiddleOfTheLinkedList.ListNode(4).apply {
+                    next = MiddleOfTheLinkedList.ListNode(5)
                 }
             }
         }
     }
-    println(ReverseLinkedList.reverseList(linked))
+    println(MiddleOfTheLinkedList.middleNode(linked)?.`val`)
 }
