@@ -5,5 +5,5 @@ import interview.ClimbingStairs.climbStairs
 import interview.MergeTwoSortedList.printNode
 
 fun main(args: Array<String>) {
-    println(IsSubsequence.isSubsequence("aaaaaa", "bbaaaa"))
+    println(FirstBadVersion.firstBadVersion(5))
 }
