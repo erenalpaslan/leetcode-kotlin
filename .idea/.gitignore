@@ -3,3 +3,9 @@
 /workspace.xml
 /out/
 out/
+*.out/
+out/production/
+
+
+# Compiled class file
+*.class

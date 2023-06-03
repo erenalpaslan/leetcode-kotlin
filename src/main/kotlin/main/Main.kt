@@ -4,6 +4,6 @@ import interview.*
 import interview.MergeTwoSortedList.printNode
 
 fun main(args: Array<String>) {
-    val isDuplicate = ContainsDuplicate.containsDuplicate(intArrayOf(2,14,18,22,22))
+    val isDuplicate = GroupAnagram.groupAnagrams(arrayOf("a"))
     println("==> $isDuplicate")
 }
