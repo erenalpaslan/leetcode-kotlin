@@ -4,6 +4,6 @@ import interview.*
 import interview.MergeTwoSortedList.printNode
 
 fun main(args: Array<String>) {
-    val isDuplicate = TopKFrequent.topKFrequent(intArrayOf(1, 2, 1, 6, 2, 3, 2), 2)
+    val isDuplicate = ProductIOfArrayExceptSelf.productExceptSelf(intArrayOf(1,2,3,4))
     println("==> ${isDuplicate.map { it }}")
 }
