@@ -1,4 +1,4 @@
-package interview
+package questions
 
 import model.ListNode
 

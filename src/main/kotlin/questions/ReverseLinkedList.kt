@@ -1,6 +1,4 @@
-package interview
-
-import java.util.Stack
+package questions
 
 /**
  * Created by erenalpaslan on 12.03.2023

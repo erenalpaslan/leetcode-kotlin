@@ -1,6 +1,4 @@
-package interview
-
-import java.lang.StringBuilder
+package questions
 
 /**
  * Created by erenalpaslan on 16.11.2022

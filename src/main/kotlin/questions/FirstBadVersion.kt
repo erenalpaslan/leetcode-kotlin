@@ -1,4 +1,4 @@
-package interview
+package questions
 
 /**
  * Created by erenalpaslan on 5.03.2023

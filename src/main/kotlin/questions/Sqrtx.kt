@@ -1,4 +1,4 @@
-package interview
+package questions
 
 import kotlin.math.sqrt
 

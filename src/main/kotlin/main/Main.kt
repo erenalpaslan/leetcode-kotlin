@@ -1,7 +1,6 @@
 package main
 
-import interview.*
-import interview.MergeTwoSortedList.printNode
+import questions.*
 
 fun main(args: Array<String>) {
     val isDuplicate = ProductIOfArrayExceptSelf.productExceptSelf(intArrayOf(1,2,3,4))

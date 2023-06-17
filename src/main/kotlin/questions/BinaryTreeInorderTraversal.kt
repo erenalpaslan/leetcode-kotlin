@@ -1,7 +1,6 @@
-package interview
+package questions
 
 import java.util.Stack
-import javax.swing.tree.TreeNode
 
 /**
  * Created by erenalpaslan on 23.11.2022
