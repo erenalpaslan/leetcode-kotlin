@@ -1,9 +1,8 @@
 # Default ignored files
 /shelf/
-/workspace.xml
+/.idea/workspace.xml
 /out/
 out/
-*.out/
 out/production/
 
 
