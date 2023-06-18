@@ -3,6 +3,17 @@ package main
 import questions.*
 
 fun main(args: Array<String>) {
-    val isDuplicate = ProductIOfArrayExceptSelf.productExceptSelf(intArrayOf(1,2,3,4))
-    println("==> ${isDuplicate.map { it }}")
+    ValidSudoku.isValidSudoku(
+        arrayOf(
+            charArrayOf('.', '.', '4', '.', '.', '.', '6', '3', '.'),
+            charArrayOf('.', '.', '.', '.', '.', '.', '.', '.', '.'),
+            charArrayOf('5', '.', '.', '.', '.', '.', '.', '9', '.'),
+            charArrayOf('.', '.', '.', '5', '6', '.', '.', '.', '.'),
+            charArrayOf('4', '.', '3', '.', '.', '.', '.', '.', '1'),
+            charArrayOf('.', '.', '.', '7', '.', '.', '.', '.', '.'),
+            charArrayOf('.', '.', '.', '5', '.', '.', '.', '.', '.'),
+            charArrayOf('.', '.', '.', '.', '.', '.', '.', '.', '.'),
+            charArrayOf('.', '.', '.', '.', '.', '.', '.', '.', '.')
+        )
+    )
 }
