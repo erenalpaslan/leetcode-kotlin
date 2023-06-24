@@ -3,6 +3,6 @@ package main
 import questions.*
 
 fun main(args: Array<String>) {
-    val isValid = ValidPalindrome.isPalindrome("A man, a plan, a canal: Panama")
-    println("=> : $isValid")
+    val isValid = TwoSum2InputArraySorted.twoSum(intArrayOf(2,3,4), 6)
+    println("=> : ${isValid.map { it }}")
 }
