@@ -3,6 +3,6 @@ package main
 import questions.*
 
 fun main(args: Array<String>) {
-    val isValid = TwoSum2InputArraySorted.twoSum(intArrayOf(2,3,4), 6)
+    val isValid = `3Sum`.threeSum(intArrayOf(-1,0,1,2,-1,-4))
     println("=> : ${isValid.map { it }}")
 }
