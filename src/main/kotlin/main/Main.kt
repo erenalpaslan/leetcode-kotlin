@@ -3,6 +3,6 @@ package main
 import questions.*
 
 fun main(args: Array<String>) {
-    val isValid = TrappingRainWater.trap(intArrayOf(4,2,0,3,2,5))
+    val isValid = EvaluateReversePolishNotation.evalRPN(arrayOf("2","1","+","3","*"))
     println("=> : ${isValid}}")
 }
