@@ -1,8 +1,7 @@
 package main
 
-import questions.*
-import questions.arrays.LengthOfLongestSubstring
+import questions.arrays.MinimumSizeSubArraySum
 
 fun main(args: Array<String>) {
-    println(LengthOfLongestSubstring.lengthOfLongestSubstring("abcabcbb"))
+    println(MinimumSizeSubArraySum.minSubArrayLen(7, intArrayOf(1,1,1,1,7)))
 }
