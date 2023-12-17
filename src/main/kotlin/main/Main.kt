@@ -1,7 +1,7 @@
 package main
 
-import questions.arrays.MinimumSizeSubArraySum
+import questions.arrays.*
 
 fun main(args: Array<String>) {
-    println(MinimumSizeSubArraySum.minSubArrayLen(7, intArrayOf(1,1,1,1,7)))
+    println(DailyTemperatures.dailyTemperatures(intArrayOf(73,74,75,71,69,72,76,73)).map { it })
 }
